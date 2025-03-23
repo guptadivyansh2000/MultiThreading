@@ -1,6 +1,7 @@
 Producer-Consumer Multi-Threading Solution
 
-Description
+Description:
+
 This project implements a multi-threading solution for the classic Producer-Consumer problem.
 
 The producer continuously produces stock as long as the stock in hand (SiH) is below the Producer Total Capacity (PTC).
@@ -9,7 +10,7 @@ Ten consumers request stock from the producer, reducing the SiH accordingly. Eac
 
 The process runs indefinitely until manually stopped, with random delays introduced to simulate production and sales times.
 
-Features
+Features:
 
 Producer: Produces stock until reaching its total capacity.
  
@@ -19,7 +20,7 @@ Synchronization: Ensures proper synchronization and inter-thread communication.
 
 Random Delays: Simulates production and sales times with random delays.
 
-Usage
+Usage:
 
 Clone the repository.
 Open the project in IntelliJ IDEA.
